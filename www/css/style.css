@@ -1,6 +1,6 @@
 /**/
 body {
-  background-color: aqua;
+  background-color: rgb(17, 73, 228);
 }
 h1 {
   background-color: yellow;
@@ -28,8 +28,8 @@ input {
   height: 4ex;
   width: 5em;
   border-radius: 10px;
-  color: white;
-  background-color: blue;
+  color: rgb(0, 0, 0);
+  background-color: rgb(43, 255, 0);
 }
 
 #message {
