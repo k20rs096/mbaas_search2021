@@ -33,9 +33,9 @@
     }
 
     function searchLevel() {
-      let level = parseInt($("#level").val());
+      let defence = $("#defence").val();
       let TestDataClass = ncmb.DataStore(db);
-      TestDataClass.equalTo("level", level).fetchAll()
+      TestDataClass.equalTo("defence", defence).fetchAll()
         .then(function(results) {
           showResults(results);
         })
@@ -89,9 +89,9 @@
     <input id="name" type="text" >
   </div>
   <div>
-    <label for="level">曜日:
+    <label for="defence">曜日:
     </label>
-    <input id="level" type="text" >
+    <input id="defence" type="text" >
   </div>
   <div id="button">
     <button class="btn" onclick="fetchAll()">Fetch All</button>
